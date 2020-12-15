@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
-
+#
 
 class BaseModel(Base):
     __abstract__ = True
@@ -123,8 +123,9 @@ class DataAccessLayer:
         logging.info(self.conn_string)
         self.engine = create_engine(self.conn_string)
         Base.metadata.create_all(self.engine)
-
-        return sessionmaker(bind = self.engine)
+        self.Session = sessionmaker(bind = self.engine)
+        self.session = self.Session()
+        return self.session
 
 
 class VacancyMessage:

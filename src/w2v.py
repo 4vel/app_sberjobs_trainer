@@ -16,9 +16,9 @@ from sqlalchemy import create_engine
 # from src.config import conn_string
 from gensim.models import fasttext
 from src.dbsrc import TableRecommendation
+from src.config import fasttext_pth
 
 logging.basicConfig(level = "INFO")
-fasttext_pth = os.path.join('..', 'wvmodel', 'cc.ru.300.bin')
 fast_text = fasttext.load_facebook_vectors(fasttext_pth)
 
 
@@ -143,7 +143,7 @@ def get_user_vacid_objects(sorted_vacancy_ids, user_id):
 
     list_of_recommendation_objects = []
     for vacid_score_tuple in sorted_vacancy_ids:
-        rec = TableRecommendation(user_id = user_id, vacid = vacid_score_tuple[0], score = vacid_score_tuple[1])
+        rec = TableRecommendation(user_id = user_id, vacid = vacid_score_tuple[0], score = float(vacid_score_tuple[1]))
         list_of_recommendation_objects.append(rec)
 
     return list_of_recommendation_objects

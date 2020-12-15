@@ -16,6 +16,8 @@ conn_string += f'@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_NAME}'
 
 tf_path = os.path.join('data', 'tf.pkl')
 tf_vectorizer_path = os.path.join('data', 'vectorizer.pkl')
+fasttext_pth = os.path.join('wvmodel', 'cc.ru.300.bin')
+
 
 admins = [
     os.getenv("ADMIN_ID"),
