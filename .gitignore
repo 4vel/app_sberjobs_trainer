@@ -145,3 +145,5 @@ wiki.ru.vec
 #pickle files
 .pkl
 .pickle
+
+.idea/

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="">
+    <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="add upload recs function">
       <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_vac_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/load_recs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dbsrc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dbsrc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/w2v.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/w2v.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +84,16 @@
       <workItem from="1607743757193" duration="18648000" />
       <workItem from="1607833153459" duration="2653000" />
       <workItem from="1607969764168" duration="1644000" />
-      <workItem from="1608052334189" duration="7308000" />
+      <workItem from="1608052334189" duration="8151000" />
     </task>
+    <task id="LOCAL-00001" summary="add upload recs function">
+      <created>1608061166011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608061166011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +110,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add upload recs function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add upload recs function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
