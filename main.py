@@ -3,6 +3,8 @@ from src.config import conn_string
 from src.w2v import ft_pipeline
 from load_recs import update_recs
 from src.dbsrc import DataAccessLayer
+from apscheduler.schedulers.blocking import BlockingScheduler
+from dotenv import load_dotenv
 
 logging.basicConfig(level = "INFO")
 
@@ -13,15 +15,20 @@ logging.basicConfig(level = "INFO")
 # функцию предобработки ключевых слов
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+def main_pipe(conn_string):
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
     recs = ft_pipeline(conn_string)
     dal = DataAccessLayer(conn_string)
     session = dal.get_session()
     update_recs(session, recs)
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    load_dotenv()
+    main_pipe(conn_string)
+
+
+    schedule = BlockingScheduler()
+    schedule.add_job(main_pipe(conn_string), 'interval', minutes = 60)
+    schedule.start()
