@@ -2,7 +2,7 @@
 # sys.path.append("..")
 import pandas as pd
 import numpy as np
-# import pickle
+import pickle
 import tqdm
 import pymorphy2
 import logging
@@ -16,10 +16,15 @@ from sqlalchemy import create_engine
 # from src.config import conn_string
 from gensim.models import fasttext
 from src.dbsrc import TableRecommendation
-from src.config import fasttext_pth
+# from src.config import fasttext_pth
+
 
 logging.basicConfig(level = "INFO")
-fast_text = fasttext.load_facebook_vectors(fasttext_pth)
+# fast_text = fasttext.load_facebook_vectors(fasttext_pth)
+
+with open(os.path.join('..','data','fast_text.pkl'), 'rb') as f:
+    fast_text = pickle.load(f)
+
 
 
 def get_users_texts(conn_string):
