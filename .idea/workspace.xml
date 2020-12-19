@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="update main.py">
+    <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="update w2v">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/w2v.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/w2v.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/w2v.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/w2v.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +37,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wvmodel" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -87,7 +87,7 @@
       <workItem from="1608234702419" duration="1232000" />
       <workItem from="1608236499701" duration="1844000" />
       <workItem from="1608273238701" duration="331000" />
-      <workItem from="1608324213305" duration="6913000" />
+      <workItem from="1608324213305" duration="7056000" />
     </task>
     <task id="LOCAL-00001" summary="add upload recs function">
       <created>1608061166011</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608237188753</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update w2v">
+      <created>1608388912147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608388912147</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +139,8 @@
     <MESSAGE value="add upload recs function" />
     <MESSAGE value="gitignore update" />
     <MESSAGE value="update main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="update main.py" />
+    <MESSAGE value="update w2v" />
+    <option name="LAST_COMMIT_MESSAGE" value="update w2v" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
