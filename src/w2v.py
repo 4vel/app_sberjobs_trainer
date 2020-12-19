@@ -2,11 +2,11 @@
 # sys.path.append("..")
 import pandas as pd
 import numpy as np
-import pickle
+# import pickle
 import tqdm
 import pymorphy2
 import logging
-import os
+# import os
 from string import punctuation
 from nltk import TreebankWordTokenizer
 from nltk.corpus import stopwords
@@ -20,10 +20,10 @@ from src.config import fasttext_pth
 
 
 logging.basicConfig(level = "INFO")
-# fast_text = fasttext.load_facebook_vectors(fasttext_pth)
+fast_text = fasttext.load_facebook_vectors(fasttext_pth)
 
-with open(fasttext_pth, 'rb') as f:
-    fast_text = pickle.load(f)
+# with open(fasttext_pth, 'rb') as f:
+#     fast_text = pickle.load(f)
 
 
 
