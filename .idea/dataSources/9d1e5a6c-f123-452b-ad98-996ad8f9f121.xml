@@ -684,7 +684,7 @@ true Pacific/Easter
 false Pacific/Efate
 false Pacific/Enderbury
 false Pacific/Fakaofo
-false Pacific/Fiji
+true Pacific/Fiji
 false Pacific/Funafuti
 false Pacific/Galapagos
 false Pacific/Gambier
@@ -1319,7 +1319,7 @@ true posix/Pacific/Easter
 false posix/Pacific/Efate
 false posix/Pacific/Enderbury
 false posix/Pacific/Fakaofo
-false posix/Pacific/Fiji
+true posix/Pacific/Fiji
 false posix/Pacific/Funafuti
 false posix/Pacific/Galapagos
 false posix/Pacific/Gambier
@@ -1388,12 +1388,12 @@ false posixrules
     <database id="3" parent="1" name="defaultdb">
       <ObjectId>16395</ObjectId>
       <Owner>doadmin</Owner>
-      <IntrospectionStateNumber>154869</IntrospectionStateNumber>
+      <IntrospectionStateNumber>198628</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|19464|19466|1
 sequence|table|22793|22795|1
 sequence|table|22806|22808|1
-sequence|table|24544|24546|1
+sequence|table|24558|24560|1
 </Relations>
     </database>
     <role id="4" parent="1" name="_dodb">
@@ -1478,7 +1478,7 @@ UC/10
 </Acl>
       <StateNumber>275</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>154870</IntrospectionStateNumber>
+      <IntrospectionStateNumber>198629</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="20" parent="3" name="plpgsql">
@@ -1585,9 +1585,9 @@ UC/10
       <DataType>integer|0s</DataType>
     </sequence>
     <sequence id="33" parent="19" name="user_id_seq">
-      <ObjectId>24544</ObjectId>
+      <ObjectId>24558</ObjectId>
       <Owner>doadmin</Owner>
-      <StateNumber>153766</StateNumber>
+      <StateNumber>180827</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
     <sequence id="34" parent="19" name="user_vacancy_preference_id_seq">
@@ -1608,9 +1608,9 @@ UC/10
       <StateNumber>145253</StateNumber>
     </table>
     <table id="37" parent="19" name="user">
-      <ObjectId>24546</ObjectId>
+      <ObjectId>24560</ObjectId>
       <Owner>doadmin</Owner>
-      <StateNumber>153766</StateNumber>
+      <StateNumber>180827</StateNumber>
     </table>
     <table id="38" parent="19" name="user_vacancy_preference">
       <ObjectId>22808</ObjectId>
@@ -1702,7 +1702,7 @@ user_id</ColNames>
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>153766</StateNumber>
+      <StateNumber>180827</StateNumber>
       <DefaultExpression>nextval(&apos;user_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
@@ -1710,55 +1710,56 @@ user_id</ColNames>
       <Position>2</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>153766</StateNumber>
+      <StateNumber>180827</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="52" parent="37" name="updated_at">
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>153766</StateNumber>
+      <StateNumber>180827</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="53" parent="37" name="user_id">
       <Position>4</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>153766</StateNumber>
-      <TypeId>23</TypeId>
+      <StateNumber>180827</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
     <column id="54" parent="37" name="user_name">
       <Position>5</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>153766</StateNumber>
+      <StateNumber>180827</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="55" parent="37" name="user_email">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>153766</StateNumber>
+      <StateNumber>180827</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="56" parent="37" name="user_keywords">
       <Position>7</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>153766</StateNumber>
+      <StateNumber>180827</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="57" parent="37" name="user_pkey">
-      <ObjectId>24553</ObjectId>
-      <StateNumber>153766</StateNumber>
+      <ObjectId>24567</ObjectId>
+      <StateNumber>180827</StateNumber>
       <ColNames>id
 user_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
       <AccessMethodId>403</AccessMethodId>
-      <CollationIds>0,0</CollationIds>
-      <ClassIds>1978,1978</ClassIds>
+      <CollationIds>0,100</CollationIds>
+      <CollationNames>default</CollationNames>
+      <ClassIds>1978,3126</ClassIds>
     </index>
     <index id="58" parent="37" name="user_id_key">
-      <ObjectId>24555</ObjectId>
-      <StateNumber>153766</StateNumber>
+      <ObjectId>24569</ObjectId>
+      <StateNumber>180827</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
@@ -1766,16 +1767,16 @@ user_id</ColNames>
       <ClassIds>1978</ClassIds>
     </index>
     <key id="59" parent="37" name="user_pkey">
-      <ObjectId>24554</ObjectId>
-      <StateNumber>153766</StateNumber>
+      <ObjectId>24568</ObjectId>
+      <StateNumber>180827</StateNumber>
       <ColNames>id
 user_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>user_pkey</UnderlyingIndexName>
     </key>
     <key id="60" parent="37" name="user_id_key">
-      <ObjectId>24556</ObjectId>
-      <StateNumber>153766</StateNumber>
+      <ObjectId>24570</ObjectId>
+      <StateNumber>180827</StateNumber>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>user_id_key</UnderlyingIndexName>
     </key>

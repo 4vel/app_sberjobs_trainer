@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="update w2v">
+      <change afterPath="$PROJECT_DIR$/notebooks/w2v_small.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/w2v.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/w2v.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/w2v.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/w2v.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -88,7 +91,13 @@
       <workItem from="1608234702419" duration="1232000" />
       <workItem from="1608236499701" duration="1844000" />
       <workItem from="1608273238701" duration="331000" />
-      <workItem from="1608324213305" duration="9633000" />
+      <workItem from="1608324213305" duration="12356000" />
+      <workItem from="1608406682926" duration="31000" />
+      <workItem from="1608406739463" duration="103000" />
+      <workItem from="1608458849787" duration="867000" />
+      <workItem from="1608462299061" duration="272000" />
+      <workItem from="1608483419146" duration="1287000" />
+      <workItem from="1608660538877" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="add upload recs function">
       <created>1608061166011</created>
@@ -125,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608389052366</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update w2v">
+      <created>1608396818976</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608396818976</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
