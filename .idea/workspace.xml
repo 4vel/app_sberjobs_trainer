@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="update main.py">
+    <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="change tableuser">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dbsrc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dbsrc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/w2v.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/w2v.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +98,8 @@
       <workItem from="1610224368667" duration="2156000" />
       <workItem from="1610267761789" duration="1309000" />
       <workItem from="1610272716426" duration="2730000" />
-      <workItem from="1610301924972" duration="15000" />
+      <workItem from="1610301924972" duration="155000" />
+      <workItem from="1610306760100" duration="1725000" />
     </task>
     <task id="LOCAL-00001" summary="add upload recs function">
       <created>1608061166011</created>
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610289642596</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change tableuser">
+      <created>1610302055459</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610302055459</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +187,8 @@
     <MESSAGE value="gitignore update" />
     <MESSAGE value="update w2v" />
     <MESSAGE value="update main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="update main.py" />
+    <MESSAGE value="change tableuser" />
+    <option name="LAST_COMMIT_MESSAGE" value="change tableuser" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

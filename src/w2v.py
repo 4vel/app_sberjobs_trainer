@@ -167,6 +167,8 @@ def ft_pipeline(conn_string):
     lines, vacids = get_lines(conn_string)
     user_txt_dict = get_users_texts(conn_string)
 
+    logging.info(user_txt_dict)
+
     corpus = txt_pipe(lines)
 
     user_text_vectors_ = get_user_text_vectors(user_txt_dict)
