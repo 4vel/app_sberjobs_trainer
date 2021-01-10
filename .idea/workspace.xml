@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="update w2v">
-      <change afterPath="$PROJECT_DIR$/notebooks/w2v_small.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/w2v.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/w2v.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,10 @@
       <workItem from="1608458849787" duration="867000" />
       <workItem from="1608462299061" duration="272000" />
       <workItem from="1608483419146" duration="1287000" />
-      <workItem from="1608660538877" duration="338000" />
+      <workItem from="1608660538877" duration="6886000" />
+      <workItem from="1610224368667" duration="2156000" />
+      <workItem from="1610267761789" duration="1309000" />
+      <workItem from="1610272716426" duration="544000" />
     </task>
     <task id="LOCAL-00001" summary="add upload recs function">
       <created>1608061166011</created>
@@ -141,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608396818976</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update w2v">
+      <created>1608660894355</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608660894355</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
