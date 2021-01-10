@@ -71,11 +71,13 @@ class TableUser(BaseModel):
     __tablename__ = 'user'
 
     user_id = Column(VARCHAR(), primary_key = True)
-    user_email = Column(VARCHAR(255), primary_key = True)
+    user_name = Column(VARCHAR())
+    user_email = Column(VARCHAR(255))
     user_keywords = Column(VARCHAR())
 
-    def __init__(self, user_id, user_email, user_keywords):
+    def __init__(self, user_id, user_name, user_email, user_keywords):
         self.user_id = user_id
+        self.user_name = user_name
         self.user_email = user_email
         self.user_keywords = user_keywords
 

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="update w2v">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="update main.py">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121/storage_v2/_src_/database/defaultdb.f1Z3pg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/w2v.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/w2v.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dbsrc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dbsrc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/w2v.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/w2v.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,8 @@
       <workItem from="1608660538877" duration="6886000" />
       <workItem from="1610224368667" duration="2156000" />
       <workItem from="1610267761789" duration="1309000" />
-      <workItem from="1610272716426" duration="544000" />
+      <workItem from="1610272716426" duration="2730000" />
+      <workItem from="1610301924972" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="add upload recs function">
       <created>1608061166011</created>
@@ -152,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608660894355</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update main.py">
+      <created>1610289642596</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610289642596</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,9 +178,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add upload recs function" />
     <MESSAGE value="gitignore update" />
-    <MESSAGE value="update main.py" />
     <MESSAGE value="update w2v" />
-    <option name="LAST_COMMIT_MESSAGE" value="update w2v" />
+    <MESSAGE value="update main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="update main.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
