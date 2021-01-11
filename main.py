@@ -15,7 +15,7 @@ logging.basicConfig(level = "INFO")
 # функцию предобработки ключевых слов
 
 
-def main_pipe(conn_string):
+def main_pipe(conn_string=conn_string):
 
     recs = ft_pipeline(conn_string)
     # print(recs)
@@ -30,6 +30,6 @@ if __name__ == '__main__':
     main_pipe(conn_string)
 
 
-    # schedule = BlockingScheduler()
-    # schedule.add_job(lambda:main_pipe(conn_string), 'interval', minutes = 10)
-    # schedule.start()
+    schedule = BlockingScheduler()
+    schedule.add_job(main_pipe, 'interval', minutes = 10)
+    schedule.start()

@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="bug search">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d1e5a6c-f123-452b-ad98-996ad8f9f121.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a758dd93-6fea-4b74-88ba-a1da10d97b3e" name="Default Changelist" comment="user text preprocess">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dbsrc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dbsrc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/w2v.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/w2v.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +100,7 @@
       <workItem from="1610301924972" duration="155000" />
       <workItem from="1610306760100" duration="1874000" />
       <workItem from="1610310050367" duration="2481000" />
-      <workItem from="1610389408284" duration="1502000" />
+      <workItem from="1610389408284" duration="1685000" />
     </task>
     <task id="LOCAL-00001" summary="add upload recs function">
       <created>1608061166011</created>
@@ -175,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610309150774</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="user text preprocess">
+      <created>1610391142420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610391142420</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +204,8 @@
     <MESSAGE value="update main.py" />
     <MESSAGE value="change tableuser" />
     <MESSAGE value="bug search" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug search" />
+    <MESSAGE value="user text preprocess" />
+    <option name="LAST_COMMIT_MESSAGE" value="user text preprocess" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
