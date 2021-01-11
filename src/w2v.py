@@ -18,7 +18,6 @@ from gensim.models import fasttext
 from src.dbsrc import TableRecommendation
 from src.config import fasttext_pth
 
-
 logging.basicConfig(level = "INFO")
 fast_text = fasttext.load_facebook_vectors(fasttext_pth)
 
@@ -36,6 +35,7 @@ def get_users_texts(conn_string):
     # logging.info(df.head)
     users = df.user_id.tolist()
     texts = df.user_keywords.tolist()
+    texts = txt_pipe(texts)
     user_txt_dict = dict(zip(users, texts))
     return user_txt_dict
 
@@ -112,6 +112,7 @@ def get_user_text_vectors(user_txt_dict):
 
     user_text_vectors = {}
     for user_id, keywords in user_txt_dict.items():
+        logging.info(keywords)
         user_text_vectors[user_id] = get_text_vector(keywords)
 
     return user_text_vectors

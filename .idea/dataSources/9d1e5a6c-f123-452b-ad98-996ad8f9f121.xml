@@ -1401,12 +1401,12 @@ sequence|table|24558|24560|1
     <database id="5" parent="1" name="sberjobsdb">
       <ObjectId>16397</ObjectId>
       <Owner>doadmin</Owner>
-      <IntrospectionStateNumber>21496</IntrospectionStateNumber>
+      <IntrospectionStateNumber>24817</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|20316|20318|1
 sequence|table|20327|20329|1
-sequence|table|20340|20342|1
 sequence|table|20353|20355|1
+sequence|table|22958|22960|1
 </Relations>
     </database>
     <role id="6" parent="1" name="_dodb">
@@ -1495,7 +1495,7 @@ UC/10
 </Acl>
       <StateNumber>275</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>21497</IntrospectionStateNumber>
+      <IntrospectionStateNumber>24818</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="23" parent="5" name="plpgsql">
@@ -1596,9 +1596,9 @@ UC/10
       <Type>index</Type>
     </access-method>
     <sequence id="35" parent="22" name="recommendation_id_seq">
-      <ObjectId>20340</ObjectId>
+      <ObjectId>22958</ObjectId>
       <Owner>alex</Owner>
-      <StateNumber>21107</StateNumber>
+      <StateNumber>21855</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
     <sequence id="36" parent="22" name="user_id_seq">
@@ -1620,9 +1620,9 @@ UC/10
       <DataType>integer|0s</DataType>
     </sequence>
     <table id="39" parent="22" name="recommendation">
-      <ObjectId>20342</ObjectId>
+      <ObjectId>22960</ObjectId>
       <Owner>alex</Owner>
-      <StateNumber>21107</StateNumber>
+      <StateNumber>21855</StateNumber>
     </table>
     <table id="40" parent="22" name="user">
       <ObjectId>20329</ObjectId>
@@ -1643,7 +1643,7 @@ UC/10
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>21107</StateNumber>
+      <StateNumber>21855</StateNumber>
       <DefaultExpression>nextval(&apos;recommendation_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
@@ -1651,38 +1651,38 @@ UC/10
       <Position>2</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>21107</StateNumber>
+      <StateNumber>21855</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="45" parent="39" name="updated_at">
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>21107</StateNumber>
+      <StateNumber>21855</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="46" parent="39" name="user_id">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>21107</StateNumber>
+      <StateNumber>21855</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="47" parent="39" name="vacid">
       <Position>5</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>21107</StateNumber>
+      <StateNumber>21855</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="48" parent="39" name="score">
       <Position>6</Position>
       <DataType>numeric|0s</DataType>
-      <StateNumber>21107</StateNumber>
+      <StateNumber>21855</StateNumber>
       <TypeId>1700</TypeId>
     </column>
     <index id="49" parent="39" name="recommendation_pkey">
-      <ObjectId>20349</ObjectId>
-      <StateNumber>21107</StateNumber>
+      <ObjectId>22967</ObjectId>
+      <StateNumber>21855</StateNumber>
       <ColNames>id
 user_id</ColNames>
       <Unique>1</Unique>
@@ -1693,8 +1693,8 @@ user_id</ColNames>
       <ClassIds>1978,3126</ClassIds>
     </index>
     <index id="50" parent="39" name="recommendation_id_key">
-      <ObjectId>20351</ObjectId>
-      <StateNumber>21107</StateNumber>
+      <ObjectId>22969</ObjectId>
+      <StateNumber>21855</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
@@ -1702,16 +1702,16 @@ user_id</ColNames>
       <ClassIds>1978</ClassIds>
     </index>
     <key id="51" parent="39" name="recommendation_pkey">
-      <ObjectId>20350</ObjectId>
-      <StateNumber>21107</StateNumber>
+      <ObjectId>22968</ObjectId>
+      <StateNumber>21855</StateNumber>
       <ColNames>id
 user_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>recommendation_pkey</UnderlyingIndexName>
     </key>
     <key id="52" parent="39" name="recommendation_id_key">
-      <ObjectId>20352</ObjectId>
-      <StateNumber>21107</StateNumber>
+      <ObjectId>22970</ObjectId>
+      <StateNumber>21855</StateNumber>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>recommendation_id_key</UnderlyingIndexName>
     </key>

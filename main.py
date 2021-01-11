@@ -18,7 +18,7 @@ logging.basicConfig(level = "INFO")
 def main_pipe(conn_string):
 
     recs = ft_pipeline(conn_string)
-    print(recs)
+    # print(recs)
     dal = DataAccessLayer(conn_string)
     session = dal.get_session()
     update_recs(session, recs)
